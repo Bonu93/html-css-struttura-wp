@@ -18,11 +18,23 @@
     margin-bottom: 30px;
 }
 
+.px-15 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+
+}
+
 /* DEBUG  */
 
 .debug-box{
     height: 50px;
-    background-color: rgba(255, 255, 255, 0.25);
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 /* HEADER  */
@@ -40,4 +52,30 @@ header {
 } 
 
 /* MAIN  */
+
+main {
+    background-color: blue;
+}
+
+.main-content {
+    width: 60%;
+    float: left;
+}
+
+.sidebar {
+    float: left;
+    width: 20%;
+}
+
+/* FOOTER  */
+
+footer {
+    height: 75px;
+    background-color: rebeccapurple;
+    margin-top: 10px;
+}
+
+
+
+
 
