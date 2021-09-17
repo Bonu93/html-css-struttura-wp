@@ -1,0 +1,43 @@
+/* GENERAL RULES  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* UTILITY  */
+
+.container {
+    width: 80%;
+    margin: 30px auto;
+
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+/* DEBUG  */
+
+.debug-box{
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+/* HEADER  */
+
+header {
+    background-color: violet;
+}
+
+/* MAIN CONTENT */
+
+/* BLANKET  */
+
+.blanket {
+    background-color: darkgoldenrod;
+} 
+
+/* MAIN  */
+
