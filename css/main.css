@@ -9,8 +9,8 @@
 /* UTILITY  */
 
 .container {
-    width: 80%;
-    margin: 30px auto;
+    width: 1200px;
+    margin: 0 auto;
 
 }
 
@@ -18,9 +18,9 @@
     margin-bottom: 30px;
 }
 
-.px-15 {
-    padding-left: 15px;
-    padding-right: 15px;
+.px-10 {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .clearfix::after {
@@ -45,9 +45,9 @@ header {
 
 /* MAIN CONTENT */
 
-/* BLANKET  */
+/* HERO */
 
-.blanket {
+.hero {
     background-color: darkgoldenrod;
 } 
 
@@ -55,6 +55,10 @@ header {
 
 main {
     background-color: blue;
+}
+
+.main-header {
+    margin-bottom: 20px;
 }
 
 .main-content {
@@ -70,7 +74,6 @@ main {
 /* FOOTER  */
 
 footer {
-    height: 75px;
     background-color: rebeccapurple;
     margin-top: 10px;
 }
